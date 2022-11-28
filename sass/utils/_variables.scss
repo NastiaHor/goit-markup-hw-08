@@ -1,0 +1,26 @@
+:root {
+    --color-logo-black: #000000;
+    --color-blue-main: #2196f3;
+    --color-black-main: #212121;
+    --color-grey-main: #757575;
+    --color-white-main: #ffffff;
+    --color-background-grey: #2f303a;
+    --color-blue-accent: #188ce8;
+    --color-grey-our-team: #f5f4fa;
+    --color-grey-address: rgba(255, 255, 255, 0.6);
+    --color-grey-border: #ececec;
+    --color-grey-portfolio-border: #eeeeee;
+    --color-grey-icons: #afb1b8;
+    --color-grey-background-hero: #c4c4c4;
+    --blue-back-portfolio: rgba(33, 150, 243, 0.9);
+    --grey-back-backdrop: rgba(0, 0, 0, 0.2);
+    --grey-modal-close: rgba(0, 0, 0, 0.1);
+    --grey-modal-textarea-placeholder: rgba(117, 117, 117, 0.5);
+    --dur-time-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--color-white-main);
+    color: var(--color-grey-main);
+  }

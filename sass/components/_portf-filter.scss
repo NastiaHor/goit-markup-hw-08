@@ -1,0 +1,29 @@
+.filter-btn-list {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 8px;
+    justify-content: center;
+  }
+  
+  .portfolio-filter-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-black-main);
+    background-color: var(--color-grey-our-team);
+    border-color: transparent;
+    border-radius: 4px;
+    padding: 6px 23px;
+    transition: color var(--dur-time-func), background-color var(--dur-time-func),
+      box-shadow var(--dur-time-func);
+    &:hover,
+    &:focus {
+      color: var(--color-white-main);
+      background-color: var(--color-blue-main);
+      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+      }
+  }
