@@ -109,16 +109,16 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .contacts__icon-mail {
+  .contacts-icon-mail {
     width: 16px;
     height: 12px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .contacts__icon-tel {
-    width: 16px;
-    height: 12px;
+  .contacts-icon-tel {
+    width: 12px;
+    height: 16px;
   }
 }
 
